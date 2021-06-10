@@ -9,6 +9,7 @@ namespace GamblingProblem
             Console.WriteLine("Welcome To Gambling Problem");
             Gambler gambler = new Gambler();
             gambler.Stake();
+            gambler.WinOrLoose();
         }
     }
 }
