@@ -7,6 +7,8 @@ namespace GamblingProblem
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Gambling Problem");
+            Gambler gambler = new Gambler();
+            gambler.Stake();
         }
     }
 }
